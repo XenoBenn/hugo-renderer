@@ -1,5 +1,5 @@
 build:
-	g++ -Wall main.cpp -o renderer
+	g++ -Wall ./src/main.cpp -o renderer
 
 run: 
 	./renderer > image.ppm
